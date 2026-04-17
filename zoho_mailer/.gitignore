@@ -1,0 +1,18 @@
+# Private Credentials
+.env
+
+# Customer & Lead Data
+*.csv
+!contacts_template.csv
+# Note: contacts.csv and test_contacts.csv are both ignored
+
+# Private Business Assets (PDFs/Images)
+# Note: Manually add these to the folder to send them in emails
+"Hydrocell 1601SLR.pdf"
+Mockup.png
+"Org Logo Transp.png"
+
+# Python system files
+__pycache__/
+*.py[cod]
+*$py.class
